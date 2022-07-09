@@ -1,0 +1,25 @@
+.dinopputo {
+    display: flex;
+    flex-direction: column;
+}
+
+.dinoputoperoenimg {
+    max-width: 40rem;
+    max-height: 55vh;
+}
+
+.listholder ul{
+    list-style: none;
+}
+
+.listholder ul li {
+    margin: 10px;
+}
+
+.listholder li::before {
+    content: '> ';
+}
+
+.listholder {
+    display: flex;
+}
